@@ -1,9 +1,34 @@
-h1{
-    color:green;
+header{
+    background-image:url(./img/img3.jpeg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    padding:0;
 }
-body{
-    color:blue;
+.overlay{
+    border: 1px solid black;
+    height: 800px;
+    min-width: 800px;
+    background-color:rgba(0,0,0,0.4);
+    z-index:-2;
+ }
+ .nav{
+     text-align: right;
+     padding: auto;
+ }
+header>.overlay>.nav>ul>li{
+    display:inline-block;
+    padding: 20px;
+   
 }
-.one{
-    background-color: yellow;
+header>.overlay>.nav>ul>li>a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #F4FBF2;
+    display: block;     
+}
+    
+
 }
