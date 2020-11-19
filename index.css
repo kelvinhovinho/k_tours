@@ -39,7 +39,7 @@ header>.overlay>.nav>ul>li>a{
     margin-bottom: 0px;
 }
 .about{
-    background-color: blue;
+    background-color:#F4FFF9;
     margin-top: -1.3em;
     min-height: 50vh;
 }
@@ -75,7 +75,6 @@ p{
     line-height:0.8cm;
 }
 .maasai{
-    padding-top: 50px;
     font-family:Arial, Helvetica, sans-serif;
 }
 .image2{
