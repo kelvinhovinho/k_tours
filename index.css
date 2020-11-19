@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 header{
     background-image:url(./img/img3.jpeg);
     background-size: cover;
@@ -6,9 +11,10 @@ header{
     height: 800px;
     width: 100%;
     padding:0;
+    margin: 0;
 }
 .overlay{
-    border: 1px solid black;
+    border: 0px solid black;
     height: 800px;
     min-width: 800px;
     background-color:rgba(0,0,0,0.4);
@@ -29,6 +35,53 @@ header>.overlay>.nav>ul>li>a{
     color: #F4FBF2;
     display: block;     
 }
-    
+.home{
+    margin-bottom: 0px;
+}
+.about{
+    background-color: blue;
+    margin-top: -1.3em;
+    min-height: 50vh;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
 
+}
+.content, .img1{
+    width: 50%;
+}
+.rounded-image{
+    border-radius: 5px;
+    box-shadow:10px 10px 5px rgba(0,0,0,0.4);
+}
+.content{
+    justify-content: center;
+    display: block;
+    padding-top:10px;
+    font-family:Arial, Helvetica, sans-serif;  
+}
+li{
+    list-style-type:none;
+}
+.imagem{
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow:10px 10px 5px rgba(0,0,0,0.4);
+}
+p{
+    line-height:0.8cm;
+}
+.maasai{
+    padding-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.image2{
+    height: 250px;
+    float:right;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow:10px 10px 5px rgba(0,0,0,0.4);
 }
