@@ -17,7 +17,7 @@ header{
     border: 0px solid black;
     height: 800px;
     min-width: 800px;
-    background-color:rgba(0,0,0,0.4);
+    background-color:rgba(10, 10, 10, 0.8);
     z-index:-2;
  }
  .nav{
@@ -42,6 +42,8 @@ header>.overlay>.nav>ul>li>a{
     background-color:#F4FFF9;
     margin-top: -1.3em;
     min-height: 50vh;
+    padding-left: 10px;
+    padding-top: 30px;
 }
 .about-container{
     display: flex;
@@ -65,17 +67,17 @@ li{
     list-style-type:none;
 }
 .imagem{
-    height: 250px;
     float: left;
     margin-right: 10px;
     border-radius: 5px;
-    box-shadow:10px 10px 5px rgba(0,0,0,0.4);
+    box-shadow:10px 10px 5px rgba(0,0,0,0.4); 
 }
 p{
     line-height:0.8cm;
 }
 .maasai{
     font-family:Arial, Helvetica, sans-serif;
+    padding-left: 30px;
 }
 .image2{
     height: 250px;
@@ -83,4 +85,23 @@ p{
     margin-right: 10px;
     border-radius: 5px;
     box-shadow:10px 10px 5px rgba(0,0,0,0.4);
+}
+#mm{
+    font-size: 20px;
+}
+#mmm{
+    margin-top:30px ;
+    padding-bottom: 10;
+}
+.wrap{
+    /* background-color: red; */
+    width:1200px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+.card{
+    text-align: center;
+    text-transform: uppercase;
+    padding:30px;   
 }
